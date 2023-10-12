@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #042326;
+    margin-bottom: 5%;
+}
+
+.menu{
+    max-width: 100%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav .logo img{
+    width: 200px;
+    height: 205px;
+    display: flex;
+    margin-left: 60%;
+}
+
+hr{
+    color: rgb(89, 92, 92);
+}
+
+nav ul{
+    list-style: none;
+    margin-right: 10%;
+
+}
+
+nav ul li {
+    display:inline-block
+}
+
+nav ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    border-radius: 5%;
+  
+}
+nav ul li a:hover{
+    background-color:   #6f98c1;
+}
+
+.resto{
+    margin-inline: 5%;
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.resto2{
+    margin-inline: 5%;
+    display: block;
+    align-items: left;
+    margin-top: 3%;
+    width: 100%;
+}
+.resto2 p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.resto p{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.img1{
+    margin-top: 5%;
+    width: 50%;
+}
+.parag1{
+    width: 50%;
+}
+
+#detalhe{
+    margin-right: 10%;
+    text-align: justify;
+}
+.title h1{color: white;}
+
+.font{
+    font-size: 20px;
+    color: white;
+}
+.font2{
+    color: #00FFFF;
+}
